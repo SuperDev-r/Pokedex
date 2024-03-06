@@ -161,5 +161,6 @@ dependencies {
   androidTestImplementation(libs.truth)
   androidTestImplementation(libs.androidx.junit)
   androidTestImplementation(libs.androidx.espresso)
+  androidTestImplementation("androidx.test.espresso:espresso-contrib:3.5.1")
   androidTestImplementation(libs.android.test.runner)
 }
