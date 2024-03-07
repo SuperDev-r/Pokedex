@@ -151,6 +151,10 @@ dependencies {
   implementation(libs.androidRibbon)
   implementation(libs.progressView)
 
+  // allure
+  testImplementation("io.qameta.allure:allure-rest-assured:2.13.1")
+  testImplementation("io.qameta.allure:allure-junit5:2.13.1")
+
   // unit test
   testImplementation(libs.junit)
   testImplementation(libs.turbine)
